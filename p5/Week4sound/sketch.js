@@ -1,7 +1,7 @@
 var song1;
 
 function preload() {
-  song1 = loadSound('assets/Keys.mp3');
+  song1 = loadSound('assets/cantsay.mp3');
 }
 
 function setup() {
@@ -14,8 +14,4 @@ function setup() {
 
 function draw() {
 
-}
-
-function touchStarted() {
-  getAudioContext().resume();
 }
