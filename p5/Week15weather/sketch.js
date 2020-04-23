@@ -42,7 +42,7 @@ function draw() {
     case 1:
     background(200) ;
     fill('black') ;
-    text("we have weather!", 20, 20) ;
+    text("we have weather! (set in Batavia, IL)", 20, 20) ;
 // parse the weather object and put some text or images using at least 3 different weather data!
     text("the temperature is " + weather.main.temp, 20, 40);
     text("the humidity is " + weather.main.humidity, 20, 60);
