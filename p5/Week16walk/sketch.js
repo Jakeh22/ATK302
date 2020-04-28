@@ -43,7 +43,8 @@ function draw() {
 function positionPing(position) {
   textSize(24);
   num++;
-  background(255);
+  background(0);
+  textcolor(255)
   text("lat: " + position.latitude.toFixed(8), 10, 340);
   text("long: " + position.longitude.toFixed(8), 10, 390);
   text("number of updates: " + num, 10, 440);
