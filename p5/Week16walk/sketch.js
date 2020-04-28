@@ -28,7 +28,7 @@ function setup() {
   intervalCurrentPosition(positionPing, 5000);
   places.push(new Place(41.842258, -88.245781, "FermiLab", .02, fermiIMG));
   places.push(new Place(41.852540, -88.308330, "River Walk", .02, riverIMG));
-  places.push(new Place(41.798610, -88.348680, "Oberweis HQ", .02, icecreamImg));
+  places.push(new Place(41.798610, -88.348680, "Oberweis HQ", .02, icecreamIMG));
 
 
 }
